@@ -7,7 +7,7 @@ from sklearn import metrics
 from sklearn.model_selection import cross_val_predict
 
 #Ler arquivo de dados e conta a quantidade de linhas
-dataset = pd.read_csv(r'C:\Users\ralph\OneDrive\Área de Trabalho\Exercícios Big Data\Tweets_Mg.csv',encoding='utf-8')
+dataset = pd.read_csv(r'your.csv',encoding='utf-8')
 print('='*50)
 print(dataset.count())
 print('='*50)
